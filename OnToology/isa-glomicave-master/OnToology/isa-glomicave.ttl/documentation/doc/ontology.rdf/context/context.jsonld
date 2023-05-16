@@ -1,0 +1,300 @@
+{
+  "@context" : {
+    "UnitOfMeasure" : {
+      "@id" : "https://saref.etsi.org/core/UnitOfMeasure"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "Software" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Software"
+    },
+    "Publication" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Publication"
+    },
+    "Platform" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Platform"
+    },
+    "Technology" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Technology"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "pubmedIdentifier" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/pubmedIdentifier"
+    },
+    "feature_count" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/feature_count",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Material" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Material"
+    },
+    "Organization" : {
+      "@id" : "https://schema.org/Organization"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "hasPublication" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasPublication",
+      "@type" : "@id"
+    },
+    "Source" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Source"
+    },
+    "hasName" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "priorVersion" : {
+      "@id" : "http://www.w3.org/2002/07/owl#priorVersion"
+    },
+    "hasOutput" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasOutput",
+      "@type" : "@id"
+    },
+    "hasPerformer" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasPerformer"
+    },
+    "Hardware" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Hardware"
+    },
+    "hasValue" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasValue"
+    },
+    "Qualitative" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Qualitative"
+    },
+    "hasRole" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasRole",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "author" : {
+      "@id" : "https://schema.org/author",
+      "@type" : "@id"
+    },
+    "doi" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/doi"
+    },
+    "hasPart" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasPart",
+      "@type" : "@id"
+    },
+    "qualifiedCardinality" : {
+      "@id" : "http://www.w3.org/2002/07/owl#qualifiedCardinality"
+    },
+    "Measurement" : {
+      "@id" : "https://saref.etsi.org/core/Measurement"
+    },
+    "submissionDate" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/submissionDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "hasTechnology" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasTechnology",
+      "@type" : "@id"
+    },
+    "email" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/email",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Person" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Person"
+    },
+    "hasDate" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasDate"
+    },
+    "Assay" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Assay"
+    },
+    "isContactOf" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/isContactOf",
+      "@type" : "@id"
+    },
+    "hasType" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "Characteristic" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Characteristic"
+    },
+    "Role" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Role"
+    },
+    "Characteristics" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Characteristics"
+    },
+    "hasProcess" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasProcess",
+      "@type" : "@id"
+    },
+    "hasMaterial" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasMaterial",
+      "@type" : "@id"
+    },
+    "hasInput" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasInput",
+      "@type" : "@id"
+    },
+    "hasPlatform" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasPlatform",
+      "@type" : "@id"
+    },
+    "address" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/address",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Error1" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error1"
+    },
+    "status" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/status",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "StudyDesign" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/StudyDesign"
+    },
+    "Study" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Study"
+    },
+    "identifier" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/identifier",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "Protocol" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Protocol"
+    },
+    "isMeasurementOf" : {
+      "@id" : "https://saref.etsi.org/core/isMeasurementOf",
+      "@type" : "@id"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "hasFactor" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasFactor",
+      "@type" : "@id"
+    },
+    "Quantitative" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Quantitative"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Parameter" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Parameter"
+    },
+    "hasFileName" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasFileName"
+    },
+    "hasDesign" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasDesign",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/title",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Data" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Data"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/terms/source"
+    },
+    "hasContact" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasContact",
+      "@type" : "@id"
+    },
+    "phone" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/phone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "hasCharacteristic" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasCharacteristic",
+      "@type" : "@id"
+    },
+    "hasData" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasData"
+    },
+    "version" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "hasParameter" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasParameter",
+      "@type" : "@id"
+    },
+    "Investigation" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Investigation"
+    },
+    "accessionNumber" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/accessionNumber"
+    },
+    "Process" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Process"
+    },
+    "hasOrganization" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasOrganization",
+      "@type" : "@id"
+    },
+    "file" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/file"
+    },
+    "Factor" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Factor"
+    },
+    "Sample" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/Sample"
+    },
+    "ProtocolComponent" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/ProtocolComponent"
+    },
+    "hasMeasurement" : {
+      "@id" : "https://saref.etsi.org/core/hasMeasurement",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "isatermspublication" : {
+      "@id" : "http://purl.org/isatermspublication"
+    },
+    "hasComponent" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasComponent",
+      "@type" : "@id"
+    },
+    "hasAffiliation" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasAffiliation",
+      "@type" : "@id"
+    },
+    "hasProtocol" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/hasProtocol",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "performer" : {
+      "@id" : "https://w3id.org/def/isa-glomicave/performer",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}
