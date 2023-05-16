@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"https://w3id.org/def/isa-glomicave/" -> "https://github.com/ISA-tools/linkedISA-ontologies" [ label = "prov:wasRevisionOf" ];
+	"https://w3id.org/def/isa-glomicave/" -> "http://www.essepuntato.it/lode/" [ label = "prov:wasAttributedTo" ];
+	"https://w3id.org/def/isa-glomicave/" -> "https://github.com/dgarijo/Widoco/" [ label = "prov:wasAttributedTo" ];
+	"https://w3id.org/def/isa-glomicave/" -> "base:agent0" [ label = "prov:wasAttributedTo" ];
+
+}
